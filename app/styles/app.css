@@ -1,3 +1,19 @@
 html, body {
-  margin: 20px;
 }
+
+.box {
+  text-align: center;
+  -webkit-column-count: 4;
+  -webkit-column-rule-width:5px;
+  -webkit-column-rule-style:solid;
+  height: 520px;
+  overflow: hidden;
+}
+
+.box p {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 0px;
+  line-height: 18px;
+}
+

@@ -3,7 +3,12 @@
 
 Router = Ember.Router.extend(location: config.locationType)
 Router.map ->
-  @route 'home'
+  @resource 'holiday', ->
+    @route 'shatin'
+    @route 'home'
+  @resource 'weekday', ->
+    @route 'shatin'
+    @route 'home'
 
 `export default Router`
 
